@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="validation.js"></script>
+
+</head>
+
+<body>
+    <form name="myform" method="post"  onsubmit="return validationform()" >  
+        Name: &nbsp; &nbsp; &nbsp; <input type="text"  id="name" name="name" onclick="changetext()"><br/>  
+        Password: <input type="password" id="pass" name="password"><br/> 
+        Select: HTML:<input type="radio" id="html" name="select" value="HTML"> 
+        CSS:<input type="radio" id="css" name="select" value="CSS"> <br>
+        <input type="submit" value="register" onclick="validationform()">  
+        </form>  
+   
+</body>
+</html>
